@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous Pro');
 
 :root {
-  --colorbg: #FFDF63;
+  --colorbg: #46C0DF;
   --colort1: #305FCC;
   --colort2: #E62CAA;
-  --colort3: #46C0DF;
+  --colort3: #FFDF63;
 }
 
 header {
-    background-image: '/images/bg4cropped.jpg';
+    background-image: url(/images/bg4cropped.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,7 +35,6 @@ div {
   margin: 50px;
   padding: 20px;
   background-color: var(--colort3);
-  box-shadow: 22px 22px 12px black;
 }
 
 body {
