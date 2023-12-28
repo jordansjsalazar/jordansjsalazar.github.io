@@ -1,0 +1,86 @@
+   
+@import url('https://fonts.googleapis.com/css?family=Spline Sans Mono');
+
+:root {
+  --colorbg: #1a3ff4;
+  --colort1: #d65ed4;
+  --colort2: #61d3f9;
+  --colort3: #19006c;
+}
+
+header {
+    background-image: url('images/bg4cropped.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+
+h1 {
+  margin: auto;
+  width: 50%;
+  padding: 200px;
+}
+
+.bighead {
+  padding: 500px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+div {
+  border: 5px solid var(--colort1);
+  margin: 50px;
+  padding: 20px;
+  background-color: var(--colort3);
+  box-shadow: 22px 22px 12px black;
+}
+
+body {
+  background-color: var(--colorbg);
+  color: var(--colort2);
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 20px;
+}
+
+.ld {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid var(--colort1);
+}
+
+img {
+  display: inline-block;
+
+  margin:10px;
+  border: 3px solid var(--colort1);
+}
+
+a {
+    color: var(--colort1);
+}
+
+.fingers {
+  margin: auto;
+  width: 50%;
+}
+
+button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: var(--colort2);
+  border: 3px solid var(--colort1);
+}
+
+.button:hover {
+  background-color: var(--colort3);
+}
+
+.small {
+  font-size: 10px;
+  color: var(--colort1);
+}
