@@ -1,11 +1,11 @@
    
-@import url('https://fonts.googleapis.com/css?family=Spline Sans Mono');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 :root {
-  --colorbg: #1a3ff4;
-  --colort1: #d65ed4;
-  --colort2: #61d3f9;
-  --colort3: #19006c;
+  --colorbg: #FFFFFF;
+  --colort1: #DFC146;
+  --colort2: #E62CAA;
+  --colort3: #46C0DF;
 }
 
 header {
