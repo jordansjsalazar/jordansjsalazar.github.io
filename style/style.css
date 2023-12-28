@@ -1,15 +1,15 @@
    
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Anonymous Pro');
 
 :root {
-  --colorbg: #FFFFFF;
-  --colort1: #DFC146;
+  --colorbg: #FFDF63;
+  --colort1: #305FCC;
   --colort2: #E62CAA;
   --colort3: #46C0DF;
 }
 
 header {
-    background-image: url('images/bg4cropped.jpg');
+    background-image: '/images/bg4cropped.jpg';
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
