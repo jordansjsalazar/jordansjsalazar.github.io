@@ -61,6 +61,10 @@ img {
   margin-right: auto;
 }
 
+text {
+	align: center;
+}
+
 a {
     color: var(--colort1);
 }
