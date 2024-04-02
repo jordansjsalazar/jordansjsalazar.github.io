@@ -13,6 +13,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+	background-size: auto;
 }
 
 h1 {
@@ -85,5 +86,4 @@ button {
 
 img {
 	width: 50%;
-	height: 50%;
 }
