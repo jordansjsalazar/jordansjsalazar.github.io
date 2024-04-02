@@ -53,7 +53,8 @@ body {
 
 img {
   display: inline-block;
-
+  width: 50%;
+  height: 50;
   margin:10px;
   border: 3px solid var(--colort1);
 }
@@ -82,8 +83,4 @@ button {
 .small {
   font-size: 10px;
   color: var(--colort1);
-}
-
-img {
-	width: 50%;
 }
