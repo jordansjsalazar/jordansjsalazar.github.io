@@ -2,10 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous Pro');
 
 :root {
-  --colorbg: #979cb4;
-  --colort1: #383f60;
-  --colort2: #cacfe2;
-  --colort3: #1c1f2c;
+  --colorbg: #00576d;
+  --colort1: #dafaf2;
+  --colort2: #2a0516;
+  --colort3: #4b1724;
+  
+  --colorbg_old: #979cb4;
+  --colort1_old: #383f60;
+  --colort2_old: #cacfe2;
+  --colort3_old: #1c1f2c;
 }
 
 header {
