@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous Pro');
 
 :root {
-  --colorbg_new: #bc7c76;
-  --colort1_new: #f2c172;
-  --colort2_new: #b4e8db;
-  --colort3_new: #883d1e;
+  --colort1_new: #6d77a5;
   
   --colorbg: #979cb4;
   --colort1: #383f60;
@@ -80,7 +77,7 @@ text {
 }
 
 a {
-    color: var(--colort1);
+    color: var(--colort1_new);
 }
 
 a:hover {
