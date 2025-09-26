@@ -48,6 +48,11 @@ body {
   font-size: 20px;
 }
 
+.light-mode {
+    background-color: var(--colort1);
+    color: var(--colorbg);
+}
+
 .ld {
   display: inline-block;
   margin: 20px;
