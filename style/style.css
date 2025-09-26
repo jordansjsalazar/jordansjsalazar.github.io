@@ -54,7 +54,7 @@ body {
 }
 
 img {
-  max-width: 50%;
+  max-width: 200px;
   height: auto;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -87,9 +87,10 @@ a:hover {
 }
 
 .row {
-	margin: 0 auto
-	padding: 0
-	clear: both
+	margin: 0 auto;
+	padding: 0;
+	clear: both;
+	border: none;
 }
 
 .fingers {
