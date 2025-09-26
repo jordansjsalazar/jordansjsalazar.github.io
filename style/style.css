@@ -85,12 +85,13 @@ a:hover {
 	color: var(--colort2);
 }
 
-.row
+.row {
 	width: 100%
 	max-width: 1170px
 	margin: 0 auto
 	padding: 0
 	clear: both
+}
 
 .fingers {
   margin: auto;
