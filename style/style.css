@@ -37,6 +37,8 @@ div {
   margin: 50px;
   padding: 20px;
   background-color: var(--colort3);
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -94,6 +96,7 @@ a:hover {
 	border: none;
 	display: flex;
 	justify-content: center;
+	flex-direction: row;
 }
 
 .fingers {
