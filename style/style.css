@@ -55,7 +55,7 @@ body {
   border: 3px solid var(--colort1);
 }
 
-img {
+.gallery {
   max-width: 500px;
   height: auto;
   margin-top: 20px;
