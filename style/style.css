@@ -32,16 +32,13 @@ h2 {
   font-size: 30px;
 }
 
-div {
-  border: 5px solid var(--colort1);
-  margin: 50px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
 .background {
 	background-color: var(--colort3);
+    border: 5px solid var(--colort1);
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
