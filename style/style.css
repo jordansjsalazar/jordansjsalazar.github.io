@@ -92,6 +92,7 @@ a:hover {
 	padding: 0;
 	clear: both;
 	border: none;
+	display: flex;
 	justify-content: center;
 }
 
