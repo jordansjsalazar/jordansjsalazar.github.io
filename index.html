@@ -12,7 +12,7 @@
     <h1>Jorge Salazar<br>Game Design and Art</h1>
   </header>
   <body>
-	<button onclick="lightmode()">Enable light mode</button>
+	<button onclick="toggle(this)" value="OFF">Enable light mode</button>
 	<div class="background">
 		<h2>Navigation</h2>
         <ul>
@@ -77,10 +77,37 @@
 	
   <script src="lightbox/js/lightbox-plus-jquery.js"></script>
   <script>
-	  function lightmode() {
-	    var element = document.body;
-	    element.classList.toggle("light-mode");
+	  function darkmode() {
+		  const setVariables = vars => Object.entries(vars).forEach(v => root.style.setProperty(v[0], v[1]));
+		  const myVariables = {
+			  "--colort1_new": "#6d77a5",
+			  "--colorbg": "#979cb4",
+			  "--colort1": "#383f60",
+			  "--colort2": "#cacfe2",
+			  "--colort3": "#1c1f2c",
+		  };
+		  setVariables(myVariables);
 	  } 
+	  function lightmode() {
+	  		  const setVariables = vars => Object.entries(vars).forEach(v => root.style.setProperty(v[0], v[1]));
+	  		  const myVariables = {
+	  			  "--colort1_new": "#6d77a5",
+	  			  "--colorbg": "#979cb4",
+	  			  "--colort1": "#383f60",
+	  			  "--colort2": "#cacfe2",
+	  			  "--colort3": "#1c1f2c",
+	  		  };
+	  		  setVariables(myVariables);
+	  	  } 
+	  function toggle(b) {
+		  if (button.value == "OFF") {
+			lightmode();
+		    button.value = "ON";
+		  } else {
+			darkmode();
+		    button.value = "OFF";
+		  }
+		}
   </script>
   </body>
 </html>
