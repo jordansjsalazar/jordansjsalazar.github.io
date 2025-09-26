@@ -36,9 +36,12 @@ div {
   border: 5px solid var(--colort1);
   margin: 50px;
   padding: 20px;
-  background-color: var(--colort3);
   display: flex;
   flex-direction: column;
+}
+
+.background {
+	background-color: var(--colort3);
 }
 
 body {
