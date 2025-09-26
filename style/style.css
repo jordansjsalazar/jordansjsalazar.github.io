@@ -113,8 +113,8 @@ button {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  background-color: var(--colort1);
-  border: 3px solid var(--colort3);
+  background-color: var(--colort3);
+  border: 3px solid var(--colort1);
   color: var(--colort2);
   font-family: 'Spline Sans Mono', monospace;
   font-size: 20px;
