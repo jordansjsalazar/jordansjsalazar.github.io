@@ -86,11 +86,11 @@ text {
 }
 
 a {
-    color: var(--colort1_new);
+    color: var(--colort2);
 }
 
 a:hover {
-	color: var(--colort2);
+	color: var(--colort1_new);
 }
 
 .row {
