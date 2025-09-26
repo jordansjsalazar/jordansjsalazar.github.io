@@ -54,7 +54,6 @@ body {
 }
 
 img {
-  display: inline;
   max-width: 50%;
   height: auto;
   margin-top: 20px;
