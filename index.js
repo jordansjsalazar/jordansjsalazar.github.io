@@ -5,6 +5,7 @@ $('.gallery img').click(function() {
     $(itemID).addClass('item_open');
     return false;
 });
+
 $('.close').click(function() {
     $('.port, .gallery ul').removeClass('item_open');
     return false;
