@@ -71,7 +71,7 @@ body {
   margin-left: 20px;
   margin-right: 10px;
   white-space: nowrap;
-  display: inline;
+  display: inline-block;
   max-width:100%;
   max-width:500px;
   height: auto !important;
