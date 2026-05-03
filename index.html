@@ -83,6 +83,9 @@
 	
   <script src="lightbox/js/lightbox-plus-jquery.js"></script>
   <script>
+      lightbox.option("fitImagesInViewport":true)
+  </script>
+  <script>
 	  const root = document.querySelector(':root');
 	  const setVariables = vars => Object.entries(vars).forEach(v => root.style.setProperty(v[0], v[1]));
 	  let myVariables;
