@@ -70,10 +70,7 @@ body {
   margin-right: 10px;
   white-space: nowrap;
   display: inline;
-}
-
-image {
-	width:100%;
+  width:100%;
 }
 
 object {
