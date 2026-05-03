@@ -65,7 +65,6 @@ body {
 }
 
 .gallery {
-  white-space: nowrap;
   display: inline-block;
   max-width:100%;
   height: auto !important;
