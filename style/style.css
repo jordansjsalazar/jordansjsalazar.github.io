@@ -72,6 +72,10 @@ body {
   display: inline;
 }
 
+image {
+	width:100%;
+}
+
 object {
     display: block;
     margin-top: 20px;
