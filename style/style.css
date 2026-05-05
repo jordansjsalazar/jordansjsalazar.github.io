@@ -66,8 +66,8 @@ body {
 
 .gallery {
   display: inline-block;
-  max-width:100%;
-  height: auto !important;
+  width: 400px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -92,7 +92,8 @@ text {
 .img_div {
   width: 400px;
   height: 400px;
-  border: 2px var(--colort1_new);
+  border: 2px solid var(--colort1_new);
+  display: inline-block;
 }
 
 a {
