@@ -90,9 +90,9 @@ text {
 }
 
 .img_div {
-  width: 300px;
-  height: 300px;
-  border: 2px --colort1;
+  width: 400px;
+  height: 400px;
+  border: 2px var(--colort1_new);
 }
 
 a {
