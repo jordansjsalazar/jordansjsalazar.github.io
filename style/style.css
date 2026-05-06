@@ -97,7 +97,6 @@ text {
 .img_div {
   width: 400px;
   height: 400px;
-  height: auto !important;
   border: 2px solid var(--colort1_new);
   display: inline-block;
   background-color: var(--colort2);
