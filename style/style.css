@@ -104,6 +104,7 @@ text {
 
 @media screen and (max-width: 600px) {
 	.img_div {
+	  width: auto;
 	  max-width: 100%;
 	  height: auto !important;
 	  border: 2px solid var(--colort1_new);
