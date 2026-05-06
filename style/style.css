@@ -104,7 +104,7 @@ text {
 
 @media screen and (max-width: 600px) {
 	.img_div {
-	  padding-top: 100%;
+	  aspect-ratio: 1/1;
 	  width: auto;
 	  max-width: 100%;
 	  height: auto !important;
