@@ -30,5 +30,39 @@
       <a href="/index.html" style="margin: auto;">Back</a>
 	</nav>
     </div>
+    <script>
+  	  const root = document.querySelector(':root');
+  	  const setVariables = vars => Object.entries(vars).forEach(v => root.style.setProperty(v[0], v[1]));
+  	  let myVariables;
+  	  function darkmode() {
+  		  let myVariables = {
+  			  "--colort1_new": "#6d77a5",
+  			  "--colorbg": "#979cb4",
+  			  "--colort1": "#383f60",
+  			  "--colort2": "#cacfe2",
+  			  "--colort3": "#1c1f2c",
+  		  };
+  		  setVariables(myVariables);
+  	  } 
+  	  function lightmode() {
+  		  let myVariables = {
+  	  			  "--colort1_new": "#cacfe2",
+  	  			  "--colorbg": "#979cb4",
+  	  			  "--colort1": "#587e9e",
+  	  			  "--colort2": "#1c1f2c",
+  	  			  "--colort3": "#cacfe2",
+  	  		  };
+  	  		  setVariables(myVariables);
+  	  	  } 
+  	  function toggle(b) {
+  		  if (b.value == "OFF") {
+  			lightmode();
+  		    b.value = "ON";
+  		  } else {
+  			darkmode();
+  		    b.value = "OFF";
+  		  }
+  		}
+    </script>
 </body>
 </html>
