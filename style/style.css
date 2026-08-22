@@ -113,6 +113,7 @@ text {
 }
 
 @media screen and (max-width: 600px) {
+	
 	.img_div {
 	  aspect-ratio: 1/1;
 	  width: auto;
@@ -123,6 +124,10 @@ text {
 	  background-color: var(--colort2);
 	}
 	
+}
+
+@media screen and (max-width: 800px) {
+	
 	.div-row {
 		display: inline-block;
 	}
@@ -130,6 +135,7 @@ text {
 	.inline-row {
 		display: inline-block;
 	}
+	
 }
 
 a {
