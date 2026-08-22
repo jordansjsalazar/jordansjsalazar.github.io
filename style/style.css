@@ -102,6 +102,16 @@ text {
   background-color: var(--colort2);
 }
 
+.div-row {
+	display: flex;
+}
+
+.inline-row {
+	padding: 10px; 
+	display: flex; 
+	gap: 10px;
+}
+
 @media screen and (max-width: 600px) {
 	.img_div {
 	  aspect-ratio: 1/1;
@@ -111,6 +121,14 @@ text {
 	  border: 2px solid var(--colort1_new);
 	  display: inline-block;
 	  background-color: var(--colort2);
+	}
+	
+	.div-row {
+		display: inline-block;
+	}
+	
+	.inline-row {
+		display: inline-block;
 	}
 }
 
