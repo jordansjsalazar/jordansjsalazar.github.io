@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv='cache-control' content='no-cache'> 
+	<meta http-equiv='expires' content='0'> 
+	<meta http-equiv='pragma' content='no-cache'>
+    <title>Jorge Salazar</title>
+    <link href="/style/style.css" rel="stylesheet" media="all">
+	<link href="/lightbox/css/lightbox.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/images/icon.jpg">
+  </head>
+  <body>
+	<br>
+	<button onclick="toggle(this)" value="OFF">Toggle light mode</button>
+		
+	<div class="background" role="about">
+		<h2>Slime Herder</h2>
+		
+		<p>This is a puzzlescript game made in 2 days to better understand level-based puzzle mechanics.</p>
+	</div>
+	
+	<div class="background" role="clickable image gallery">
+		
+		<div class="row">
+			<img src="design/1.png" />
+			<img src="design/2.png" />
+			<img src="design/3.png" />
+			<img src="design/4.png" />
+			<img src="design/5.png" />
+		</div>
+    <div class="background">
+	
+    <div class="background">
+	<nav>
+      <a href="/index.html" style="margin: auto;">Back</a>
+	</nav>
+    </div>
+    <script>
+  	  const root = document.querySelector(':root');
+  	  const setVariables = vars => Object.entries(vars).forEach(v => root.style.setProperty(v[0], v[1]));
+  	  let myVariables;
+  	  function darkmode() {
+  		  let myVariables = {
+  			  "--colort1_new": "#6d77a5",
+  			  "--colorbg": "#979cb4",
+  			  "--colort1": "#383f60",
+  			  "--colort2": "#cacfe2",
+  			  "--colort3": "#1c1f2c",
+  		  };
+  		  setVariables(myVariables);
+  	  } 
+  	  function lightmode() {
+  		  let myVariables = {
+  	  			  "--colort1_new": "#cacfe2",
+  	  			  "--colorbg": "#979cb4",
+  	  			  "--colort1": "#587e9e",
+  	  			  "--colort2": "#1c1f2c",
+  	  			  "--colort3": "#cacfe2",
+  	  		  };
+  	  		  setVariables(myVariables);
+  	  	  } 
+  	  function toggle(b) {
+  		  if (b.value == "OFF") {
+  			lightmode();
+  		    b.value = "ON";
+  		  } else {
+  			darkmode();
+  		    b.value = "OFF";
+  		  }
+  		}
+    </script>
+</body>
+</html>
